@@ -1,0 +1,88 @@
+*{
+	font-family:verdana;
+}
+body {
+	width: 1000px;
+}
+div{
+	display: inline-block;
+}
+a {
+	color:#A80319;
+}
+#header {
+	/*background: url("http://2.bp.blogspot.com/-hXJ6dA3hiiI/UHid97Bw9KI/AAAAAAAAB2k/87jBlhyoMW0/s1600/FreeBSD__006.png");*/
+	background-size: cover;
+	background-color:maroon;
+	height:150px;
+	background-position: center;
+	width: 100%;
+}
+.searchside li {
+	display: inline;
+}
+#top-content {
+	width: 1000px;
+	height: 150px;
+	border:solid black;
+}
+.devilside {
+	border:solid blue;
+	width: 500px;
+	display:inline;
+	margin-top: 100px;
+}
+
+#sidebar {
+	background-color: #D3D2D4;
+	width: 150px;
+	border: solid;
+	border-width: 1px;
+	border-color: grey;
+	vertical-align: top;
+	margin-top: 25px
+}
+#main-content{
+	margin-left:20px;
+	width: 700px;
+	vertical-align: top;
+	margin-top: 25px;
+}
+.navbar {
+	width:100%;
+	background-color:#D3D2D4;
+	padding:8px;
+	margin-top: 0px;
+	border:solid blue;
+}
+.navbar li{
+	display:inline;
+}
+
+.textsize {
+	display: inline-block;
+	margin-right: 60px;
+	margin-top:10px;
+	border:solid black;
+	vertical-align: top;
+}
+
+.textsize li{
+	display:inline-block;
+	color: white;
+
+}
+.textsize li a{
+	color:gold;
+}
+
+
+h3{
+	color:#A80319;
+}
+h1 {
+	color:black;
+}
+h4{
+	color:#A80319;
+}

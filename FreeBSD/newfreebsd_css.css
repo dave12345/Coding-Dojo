@@ -1,0 +1,42 @@
+* {
+	font-family: verdana;
+	font-size: 13px;
+}
+body {
+	width: 1000px;
+	border: 1px solid black;
+}
+.searchside {
+	border: 1px solid red;
+	width: 400px;
+	vertical-align: top;
+}
+.searchside li{
+	display: inline;
+	/*color:white;*/
+}
+.searchside li a {
+	color:gold;
+}
+.devilside {
+	border: 1px black solid;
+	width: 550px;
+}
+.devilside, .searchside {
+	display: inline-block;
+}
+#top-bar {
+	height: 300px;
+	display: inline;
+}
+.navbar {
+	border: 1px solid blue;
+}
+.navbar li {
+	display: inline;
+}
+.navbar li a {
+	text-decoration: none;
+	border-left: grey solid 1px;
+	padding: 0 7px;
+}

@@ -1,0 +1,34 @@
+/*div {
+	display:block;
+}*/
+#main-content {
+ 	width:1000px;
+ 	border: 1px solid green;
+ 	margin:0 auto;
+ }
+
+#main-content p{
+	border-left:dotted;
+}
+
+.info, .horizontal {
+	vertical-align: top;
+	display:inline-block;
+}
+.horizontal{
+	width:270px;
+	border: 1px solid blue;
+}
+.info{
+	border:1px red solid;
+}
+.map{
+	border:1px yellow solid;
+	display:inline-block;
+	width:270px;
+}
+
+.map, .horizontal{
+	padding:0 10px;
+	margin:0 2px;
+}

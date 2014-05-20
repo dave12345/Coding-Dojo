@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>jQuery Demo, yo!</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			alert('you are now working with jQuery');
+
+		$('a').click(function(){
+			alert('You are now leaving the page!')
+			});
+
+		$('p').hide();
+
+		$('#hide').click(function(){
+			$('p').hide();
+			});
+
+		$('#show').click(function(){
+			$('p').show();
+			});
+		
+		$('h3').hover(function(){
+			$('h2').text('go see the Golden Gate, yo!');
+
+		$('.append').click(function(){
+			$('.result').append('<h4>.append adds HTML! </h4>')
+		});
+
+		});
+
+	</script>
+</head>
+<body>
+	<div class="result"></div>
+	<p>Hello there, I'm a paragraph, yo!</p>
+	<p>Hello, I am also a paragraph!</p>
+	<a href="">Hello hello</a>
+	<button id="hide">This will hide all paragraphs!</button>
+	<button id="show">Click to show all paragraphs!</button>
+	<h3>Mountain View, California</h3>
+	<h2>Minneapolis, MN</h2>
+	<button class="append">Click to see .append work!</button>
+	<div class="result"></div>
+</body>
+</html>

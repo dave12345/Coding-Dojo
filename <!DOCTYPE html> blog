@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html language="en">
+<head>
+	<meta charset="utf-8">
+	<title>Upjeezy's Blogeezy</title>
+</head>
+<body>
+	<h1>Welcome to the (Fake) Blog!</h1>
+		<a href="http:/www.google.com"><img src="http://upload.wikimedia.org/wikipedia/commons/0/0c/Cow_female_black_white.jpg" height=150 width=350></a>
+	<h2>Blog Entry #1</h2>
+		<p>Lorem ipsum dolor sit amet, <span class="important">consectetur</span> adipiscing elit. Vivamus malesuada augue leo, sit amet elementum massa congue ac. Ut et condimentum mauris, ut venenatis est. Donec blandit purus eget massa pharetra ultrices. Praesent non quam et purus venenatis consectetur a nec lectus. Praesent eget hendrerit elit. Nullam nec massa vitae massa tincidunt sagittis. Suspendisse volutpat odio eget elementum pellentesque. Suspendisse eu luctus nisl. Fusce faucibus, augue ac vulputate blandit, sapien felis laoreet diam, id consectetur nunc nulla id nunc. Cras consectetur dolor sem, fringilla faucibus neque porttitor vel.</p>
+	<h3>Types of Cows</h3>
+		<ul>
+			<li>Heifer</li>
+			<li>Brown Cow</li>
+			<li>Blue Cow</li>
+		</ul>
+	<h3>Top 3 Animals</h3>
+		<ol>
+			<li>Pig</li>
+			<li>Cow</li>
+			<li>Chicken</li>
+		</ol>
+	<table>
+	<thead>
+		<tr>
+			<th>Species</th>
+			<th>Color</th>
+			<th>Spots (Y/N)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Cow</td>
+			<td>White & Black</td>
+			<td>Yes</td>
+		</tr>
+		<tr>
+			<td>Pig</td>
+			<td>Pink</td>
+			<td>No</td>
+		</tr>
+		<tr>
+			<td>Chicken</td>
+			<td>White</td>
+			<td>...Sometimes..?</td>
+		</tr>
+	</tbody>
+	</table>
+
+	<form action="process.php" method="post">
+		<label>Name: <input type="text" name="name"></label>
+		<label>email address: <input type="text" email address="email address"></label>
+		<p>What is your favorite animal?</p>
+		<label><input type="radio" name="animal" value="cow">Cow</label>
+		<label><input type="radio" name="animal" value="pig">Pig</label>
+		<label><input type="radio" name="animal" value="chicken">Chicken</label>
+		<p>Which colors do you like?</p>
+		<label><input type="checkbox" name="color" value="blue">Blue</label>
+		<label><input type="checkbox" name="color" value="red">Red</label>
+		<label><input type="checkbox" name="color" value="purple">Purple</label>
+		<input type="submit" value="Click here to receive weekly phone calls from our marketing department">
+	</form>
+</body>
+</html>

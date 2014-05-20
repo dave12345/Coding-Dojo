@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery Basic Two</title>
+	<script type="text/Javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/Javascript">
+		$(document).ready(function(){
+			$('img').click(function(){
+				$(this).hide();
+			});
+			$("button").click(function(){
+				$("img").show();
+			})
+		});
+	</script>
+</head>
+<body>
+	<h1>Disappearing Ninja</h1>
+	<p>jQuery - assignment 1</p>
+	<img src="cow.jpg">
+	<img src="cow.jpg">
+	<img src="cow.jpg">
+	<img src="cow.jpg">
+	<img src="cow.jpg">
+	<img src="cow.jpg">
+	<img src="cow.jpg">
+	<img src="cow.jpg">
+	<button>Restore</button>
+</body>
+</html>

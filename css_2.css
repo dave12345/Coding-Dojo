@@ -1,0 +1,49 @@
+
+#nav li{
+	display: inline;
+	margin: 30px;
+	text-decoration:none;
+}
+#header {
+	background: url("http://4.bp.blogspot.com/-MN5mdzY-qRw/T5zE5sQ2HnI/AAAAAAAAD3k/ypjhv5AWI7k/s1600/green-pasture-widescreen-wallpaper.jpg");
+	background-size: cover;
+}
+
+p {
+	color: black;
+}
+
+
+h2 {
+	color:blue;
+}
+
+#welcome{
+	color: red;
+	border:1px solid black;
+	border-radius: 10px;
+	height: 60px;
+}
+img {
+	border-radius: 10px;
+	margin: 15px 350px;
+}
+#welcome h1 {
+	margin: 10px 330px;
+}
+/*#cowtalk input {
+	height: 150px;
+	width: 300px;
+
+}*/
+#cowtalk textarea
+{
+	height: 150px;
+	width: 300px;
+	margin: 10px;
+}
+
+form input {
+	border-radius: 5px;
+	margin: 10px;
+}
